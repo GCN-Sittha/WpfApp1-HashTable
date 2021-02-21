@@ -30,7 +30,7 @@ namespace WpfApp1_HashTable
 
         private void addButton_Click(object sender, RoutedEventArgs e)
         {
-            if (txtBox_Key.Text == " ")
+            if (txtBox_Key.Text == " " && txtBox_Value.Text == " ")
             {
                 MessageBox.Show("Please input you Key");
             } else
